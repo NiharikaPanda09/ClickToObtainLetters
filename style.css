@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  color:black;
+  user-select: none;
+  font-family:cursive;
+  
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;  
+  background:linear-gradient(to right, #1a237e,#ff1744);  
+}
+div{
+  text-align: center;
+  font-size:10rem;
+}
+#i,#h,#a,#c,#o,#d,#e,#s,#complete{
+  display:none;
+}
